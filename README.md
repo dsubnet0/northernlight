@@ -9,9 +9,10 @@ Assumes lines end in `\n`. Assumes files are ASCII. Assumes no empty lines in th
 Assumes files to be compared are local files named a.txt and b.txt.
 
 USAGE:
-`pipenv run python mvp1.py
+`pipenv run python mvp1.py`
 
 ## mvp2.py
+Strips line endings and spaces from each line, so as to compare lines more intuitively.
 USAGE:
 `pipenv run python mvp2.py --file1 <filename> --file2 <filename>`
 
